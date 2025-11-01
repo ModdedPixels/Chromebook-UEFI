@@ -29,10 +29,9 @@ if grep -q "Chrom" /etc/lsb-release; then
 else
 	mkdir -p /tmp && cd /tmp
 fi
-
 # clear screen / show banner
 printf "\ec"
-echo -e "\nChromebook Firmware Setup starting up"
+echo -e "\nChromebook Firmware Setup (Modified Mr Chromebox Firmware Utility) starting up"
 #check for cmd line param, expired CrOS certs
 if ! curl -sLo /dev/null https://mrchromebox.tech/index.html || [[ "$1" = "-k" ]]; then
 	export CURL="curl -k"
