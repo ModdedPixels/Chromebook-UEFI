@@ -7,6 +7,8 @@
 #
 # Created by Mr.Chromebox <mrchromebox@gmail.com>
 #
+# Modded by ModdedPixels <moddedpixelss@gmail.com>
+#
 # May be freely distributed and modified as needed,
 # as long as proper attribution is given.
 #
